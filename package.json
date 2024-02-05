@@ -1,0 +1,22 @@
+{
+  "name": "bank-app",
+  "version": "1.0.0",
+  "description": "This app made with clear JavaScript and self-written FrameWork",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldic342/Bank-app.git"
+  },
+  "keywords": [
+    "bank"
+  ],
+  "author": "goldic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goldic342/Bank-app/issues"
+  },
+  "homepage": "https://github.com/goldic342/Bank-app#readme"
+}
