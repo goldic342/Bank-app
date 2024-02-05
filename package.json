@@ -4,7 +4,8 @@
   "description": "This app made with clear JavaScript and self-written FrameWork",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/goldic342/Bank-app/issues"
   },
-  "homepage": "https://github.com/goldic342/Bank-app#readme"
+  "homepage": "https://github.com/goldic342/Bank-app#readme",
+  "devDependencies": {
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-minimizer-webpack-plugin": "^6.0.0",
+    "dotenv": "^16.4.1",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.8.0",
+    "terser-webpack-plugin": "^5.3.10"
+  }
 }
