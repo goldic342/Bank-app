@@ -2,7 +2,7 @@
   "name": "bank-app",
   "version": "1.0.0",
   "description": "This app made with clear JavaScript and self-written FrameWork",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
     "dev": "webpack serve --mode development --open",
     "build": "webpack --mode production"
@@ -21,8 +21,19 @@
   },
   "homepage": "https://github.com/goldic342/Bank-app#readme",
   "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.10.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^5.0.0",
+    "sass": "^1.70.0",
+    "sass-loader": "^14.1.0",
+    "style-loader": "^3.3.4",
     "webpack": "^5.90.1",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
     "clean-webpack-plugin": "^4.0.0",
