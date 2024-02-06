@@ -1,7 +1,7 @@
-class AboutUs {
-  render() {
-    return "<h1>I'm about page</h1>"
+import { BaseScreen } from '../base-screen/base-screen.component'
+
+export class AboutUs extends BaseScreen {
+  constructor() {
+    super('About us', "<h1>I'm about us page</h1>")
   }
 }
-
-export { AboutUs }
