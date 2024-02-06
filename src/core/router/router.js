@@ -40,7 +40,6 @@ export class Router {
   }
 
   #handleRouteChange() {
-    console.log('handleRouteChange')
     const path = this.getCurrentPath() || '/'
     const route = this.#routes.find(route => route.path == path) || {
       component: NotFound
